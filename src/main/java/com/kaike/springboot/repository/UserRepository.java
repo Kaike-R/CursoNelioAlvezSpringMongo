@@ -8,5 +8,6 @@ import com.kaike.springboot.model.UserEntity;
 
 @Repository
 public interface UserRepository extends MongoRepository<UserEntity, String> {
+
     
 }
